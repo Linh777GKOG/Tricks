@@ -3,24 +3,3 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-.box {
-  background-color: orange;
-  height: 100px;
-  display: flex;
-}
-
-h3 {
-  margin: auto;
-  position: relative;
-}
-
-h3::after {
-  position: absolute;
-  left: -10px;
-  content: "";
-  border-left: 3px solid #333;
-  height: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-}
